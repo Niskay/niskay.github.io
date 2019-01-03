@@ -1,0 +1,159 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#000000;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  color:#000000;
+  text-align: center;
+
+
+}
+
+.box {
+  
+  color:#ffffff;
+ padding-bottom: 10px;
+ 
+ border-bottom:#ffffff  3px solid;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header **/
+header{
+  background:#000000  ;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ffffff 10px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#ffffff;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  width: 100%;
+  min-height:700px;
+  background:url('../img/landscape.jpg') no-repeat 0;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+  border-bottom: #ffffff 10px solid;
+
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+footer{
+
+  padding:20px;
+  margin-top:0px;
+  color:#000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+.button{
+background-color: #000; 
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    width: 100px;
+}
+.current {
+
+   
+   text-decoration: underline;
+}
+
+ #cv {
+  border: solid black;
+line-height: 5em;
+  font-size: 100px;
+  width: 250%;
+  margin:auto;
+  overflow:hidden;
+  color:#000000;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff
+  
+
+
+ }
+ h4{
+
+
+  font-size: 25PX;
+  color:white;
+  margin:auto;
+  overflow:hidden;
+line-height: 7em;
+text-decoration:underline;
+ }
+h1 {
+
+  border:solid black;
+}
